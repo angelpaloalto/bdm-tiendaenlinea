@@ -17,6 +17,10 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	
+	// https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
+compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.0'
+	
 }
 
 test {
